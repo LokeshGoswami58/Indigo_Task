@@ -18,3 +18,26 @@ The approach outlined is highly scalable, designed to handle a large volume of q
 Limitations
 
 Due to resource constraints, the complete pipeline incorporating BERT, T5, and GPT models could not be executed. The code provided is structured to facilitate easy integration and scalability once sufficient resources are available.
+
+Tech Stack
+
+Frontend
+
+•	Not Applicable: This project focuses on backend development and does not include a frontend component.
+
+Backend
+
+•	Python: Primary programming language for developing the QA model.
+•	Transformers Library: Provides state-of-the-art pre-trained models like BERT, T5, and GPT.
+•	PyTorch: Deep learning framework used for model training and evaluation.
+•	Datasets Library: Used for loading and preprocessing the Quora dataset.
+•	Hugging Face: Provides pre-trained models and utilities for NLP tasks.
+
+Additional Tools and Libraries
+
+•	Pandas: For data manipulation and analysis.
+•	NumPy: For numerical operations.
+•	Scikit-learn: For data splitting and performance metrics.
+•	Rouge-score: For evaluating generated answers using ROUGE metrics.
+•	NLTK: For BLEU score computation and additional NLP utilities.
+
